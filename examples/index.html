@@ -1,0 +1,14 @@
+<!doctype html>
+<title>Worker</title>
+<script src='/build/workr.min.js' /></script>
+<script>
+	var workr = new Workr({ 
+		src : '/examples/js/worker.js',
+		script : '/build/workr.min.js'
+	});
+
+	workr.on('pong', function(){
+		console.log('pong');
+	});
+</script>
+
