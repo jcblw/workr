@@ -1,5 +1,7 @@
 ## Workr 
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/workr.svg)](https://greenkeeper.io/)
+
 workr.js allow for event binding from web workers.
 
 ### Settup
